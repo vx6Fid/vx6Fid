@@ -2,8 +2,11 @@ name: Update README with Blogs
 
 on:
   schedule:
-    - cron: "0 22 * * SUN" # At 22:00 on every sunday
+    - cron: "0 22 * * SUN" # At 22:00 on every Sunday
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -27,4 +30,5 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
           git commit -m "chore: update recent blog posts" || echo "No changes to commit"
-          git push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin HEAD
