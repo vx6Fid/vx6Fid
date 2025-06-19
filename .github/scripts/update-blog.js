@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const BLOG_API = 'https://portfolio-backend-az99.onrender.com/api/blogs/recent';
-const BLOG_BASE_URL = 'https://vx6fid.vercel.app/blog/';
+const BLOG_BASE_URL = 'https://vx6fid.vercel.app/blogs/';
 const README_PATH = 'README.md';
 
 function fetchJSON(url) {
