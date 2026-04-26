@@ -27,11 +27,11 @@ Still not sure if I’m debugging the system — or my assumptions. 🐛
 ### > recent --posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Zero-Credential CI/CD Pipeline on AWS](https://vx6fid.vercel.app/blogs/zero-credential-cicd-pipeline-on-aws) — 26 Apr 2026
 - [AI's Architectural Reality: From Prototype to Utility](https://vx6fid.vercel.app/blogs/ais-architectural-reality-from-prototype-to-utility) — 31 Jul 2025
 - [How One Bad Packet Can Take Down the Internet: Welcome to BGP](https://vx6fid.vercel.app/blogs/how-one-bad-packet-can-take-down-the-internet-welcome-to-bgp) — 14 Jun 2025
 - [Bloom Filters: The Smartest Lie Your System Can Tell](https://vx6fid.vercel.app/blogs/bloom-filters-the-smartest-lie-your-system-can-tell) — 13 Jun 2025
 - [Understanding the Backend Behind LLMs(No Headaches Involved)](https://vx6fid.vercel.app/blogs/understanding-the-backend-behind-llmsno-headaches-involved) — 20 May 2025
-- [From Curiosity to Systems: How Linux Changed the Way I Think About Development](https://vx6fid.vercel.app/blogs/from-curiosity-to-systems-how-linux-changed-the-way-i-think-about-development) — 06 May 2025
 <!-- BLOG-POST-LIST:END -->
 
 [ _Auto-updated via GitHub Actions_ ]
